@@ -1,13 +1,9 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import Navigation from './components/Navigation'
-import Footer from './components/Footer'
 
 export default function Home() {
   return (
     <main className={styles.main}>
-
-        <Navigation />
 
         <div className={styles.content}>
 
@@ -60,8 +56,6 @@ export default function Home() {
           </div>
 
         </div>
-
-        <Footer />
     </main>
   )
 }

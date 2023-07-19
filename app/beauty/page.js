@@ -1,12 +1,8 @@
-import Navigation from '../components/Navigation'
-import Footer from '../components/Footer'
-
 import styles from '../page.module.css'
 
 export default function Beauty() {
     return (
         <>
-            <Navigation />
             
             <h1 className={styles.title}>Beauty</h1>
 
@@ -53,8 +49,6 @@ export default function Beauty() {
                 </div>
 
                 </div>
-
-            <Footer />
         </>
     )
 }

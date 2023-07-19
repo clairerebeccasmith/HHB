@@ -1,12 +1,9 @@
-import Navigation from '../components/Navigation'
-import Footer from '../components/Footer'
 import CTA from '../components/CTA'
 import styles from '../page.module.css'
 
 export default function Hair() {
     return (
         <main>
-            <Navigation />
 
             <h1 className={styles.title}>Hair Treatments</h1>
 
@@ -56,7 +53,6 @@ export default function Hair() {
 
             <CTA />
 
-            <Footer />
         </main>
     )
 }
